@@ -8,6 +8,10 @@ API REST desenvolvida com **Spring Boot** para gerenciamento de biblioteca, perm
 Camila Vincensi
 
 ---
+## Link do video
+
+https://drive.google.com/file/d/1gAuJJGseWbQt_X-fTfAO3Z1u3YbwMMau/view?usp=sharing
+---
 ## 🚀 Tecnologias utilizadas
 
 - Java 21+
