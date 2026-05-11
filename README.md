@@ -241,11 +241,16 @@ A API possui tratamento padronizado de exceções:
 No `application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/library
+spring.application.name=demo
+spring.datasource.url=jdbc:postgresql://localhost:5432/library_db
 spring.datasource.username=postgres
-spring.datasource.password=senha
+spring.datasource.password=1234
 
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=update
+
+
 ```
 
 ---
